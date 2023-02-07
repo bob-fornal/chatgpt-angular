@@ -3,10 +3,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, firstValueFrom, Observable } from 'rxjs';
 
-interface DataResponse {
-  data: any;
-  error?: string;
-}
+import { DataResponse } from '@core/interfaces/data-response';
 
 @Injectable({
   providedIn: 'root'
