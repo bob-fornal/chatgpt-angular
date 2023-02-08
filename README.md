@@ -2,6 +2,10 @@
 
 Angular Implementation
 
+## Reason
+
+This repository has been created to document the pros and cons of using ChatGPT to generate Angular code.
+
 ## Implementations
 
 | Code Implemented | Variation from ChatGPT Code |
