@@ -1,7 +1,7 @@
 
-let consoleDebug: any;
-let consoleError: any;
-let consoleLog: any;
+let consoleDebug;
+let consoleError;
+let consoleLog;
 
 beforeAll(() => {
   consoleDebug = spyOn(console, 'debug');
