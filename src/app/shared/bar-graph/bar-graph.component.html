@@ -1,0 +1,3 @@
+<div style="display: flex; flex-wrap: wrap;">
+  <div class="bar" *ngFor="let data of barData" [style.width.px]="data.value * 10" [style.height.px]="30" [style.background-color]="data.color" [style.margin.px]="5"></div>
+</div>

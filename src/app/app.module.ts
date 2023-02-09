@@ -9,6 +9,7 @@ import { UserCardComponent } from './shared/user-card/user-card.component';
 import { ModalComponent } from './shared/modal/modal.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { WarningDialogComponent } from './features/warning-dialog/warning-dialog.component';
+import { BarGraphComponent } from './shared/bar-graph/bar-graph.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WarningDialogComponent } from './features/warning-dialog/warning-dialog
     UserCardsComponent,
     UserCardComponent,
     ModalComponent,
-    WarningDialogComponent
+    WarningDialogComponent,
+    BarGraphComponent
   ],
   imports: [
     BrowserModule,
